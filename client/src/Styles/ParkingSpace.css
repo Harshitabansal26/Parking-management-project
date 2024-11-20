@@ -1,0 +1,69 @@
+/* ParkingSpace.css */
+
+/* Main container styles */
+.mainContainerParkingSpace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Header styles */
+  .mainContainerParkingSpace h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  /* Parking space container */
+  .parkingSpaceContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+  }
+  
+  /* Section styles for each type of parking */
+  .twoWheeler, .threeWheeler, .fourWheeler {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Section headers */
+  .twoWheeler h2, .threeWheeler h2, .fourWheeler h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #34495e;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  /* Availability span styles */
+  .twoWheeler div span, .threeWheeler div span, .fourWheeler div span {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 10px 20px;
+    border: 1px solid #2ecc71;
+    border-radius: 5px;
+    color: #2ecc71;
+    background-color: #ecf9f1;
+    font-weight: bold;
+  }
+  
+  .twoWheeler div span:hover, 
+  .threeWheeler div span:hover, 
+  .fourWheeler div span:hover {
+    background-color: #2ecc71;
+    color: #fff;
+    cursor: pointer;
+  }
